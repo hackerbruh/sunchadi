@@ -1,0 +1,13 @@
+.sidebar {
+  width: 100%;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  /* background: #24b47e; */
+  background: linear-gradient(to bottom right, #1b865f, #24b47e);
+  height: 100vh;
+  color: #fff;
+}
+.sidebar__header {
+  font-size: 2.5rem;
+}

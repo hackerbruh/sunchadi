@@ -1,0 +1,32 @@
+.button {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 2rem 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.2s all;
+}
+
+.primary {
+  background: #24b47e;
+  border-bottom: 3px solid #146b4b;
+}
+
+.btn-disabled {
+  background: grey;
+  border-bottom: 3px solid grey;
+}
+
+.button:active {
+  border: 0px solid #146b4b;
+  transform: translateY(3px);
+}
+
+.danger {
+  background: #ca2027;
+  border-bottom: 3px solid rgb(150, 24, 28);
+}

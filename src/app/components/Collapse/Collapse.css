@@ -1,0 +1,16 @@
+.collapse__checkbox {
+  display: none;
+}
+
+.collapse__content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.collapse__label {
+  cursor: pointer;
+}
+
+.collapse__checkbox:checked + .collapse__label + .collapse__content {
+  max-height: 100%;
+}

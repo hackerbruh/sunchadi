@@ -1,0 +1,15 @@
+.TriggerItem,
+.subItem {
+  margin: 0.2rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  width: 90%;
+  transition: all 0.2s;
+}
+.TriggerItem:hover,
+.subItem:hover {
+  color: rgb(71, 71, 71);
+  background: linear-gradient(to bottom right, #d9d9d9, #ffff);
+  /* background: linear-gradient(to left, #ffdd7b 0%, #ff8d2c 100%); */
+  box-shadow: 0 10px 25px #00000040;
+}

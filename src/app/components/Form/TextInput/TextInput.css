@@ -1,0 +1,16 @@
+.label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.error {
+  background-color: red;
+  padding: 0.4rem 1rem;
+  font-size: 1.4rem;
+  color: #eee;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
